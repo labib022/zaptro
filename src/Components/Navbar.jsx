@@ -13,8 +13,8 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   const location = false;
   return (
-    <div className="bg-white py-3 shadow-2xl">
-      <div className=" mx-auto flex justify-between items-center">
+    <div className="bg-white py-3 shadow-2xl px-4 md:px-0">
+      <div className=" max-w-6xl mx-auto flex justify-between items-center">
         {/* {logo section} */}
         <div className="flex gap-7 items-center">
           <Link to={'/home'}>
